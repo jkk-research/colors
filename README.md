@@ -1,6 +1,6 @@
 # Recommended ROS colors
 
-The Google Material Design color system is a comprehensive design language which can be also used in ROS and Rviz. For convenience it is listed here and the hex valuses (eg `#F44336`) are converted to rgb (eg `0.96 0.26 0.21`) which is common representation in ROS.
+The Google Material Design color system is a comprehensive design language which can be also used in ROS and Rviz. For convenience it is listed here, and hex valuses (eg `#F44336`) are converted to rgb (eg `0.96 0.26 0.21`) which is common representation in ROS. If you need in `0-255` range, simply multiply the `0-1` rgb by `255`.
 
 | `100`  | `500` | `900` 
 |---|---|---
@@ -16,7 +16,9 @@ The Google Material Design color system is a comprehensive design language which
 |<img src="source/md_brown_100.svg"> 0.84 0.80 0.78 |<img src="source/md_brown_500.svg"> 0.47 0.33 0.28 `md_brown_500` |<img src="source/md_brown_900.svg"> 0.24 0.15 0.14 
 |<img src="source/md_grey_100.svg"> 0.96 0.96 0.96 |<img src="source/md_grey_500.svg"> 0.62 0.62 0.62 `md_grey_500`|<img src="source/md_grey_900.svg"> 0.13 0.13 0.13 
 
-# c++
+# Code examples
+
+## c++
 ```cpp
 const float md_red_500_r = 0.96, md_red_500_g = 0.26, md_red_500_b = 0.21;
 const float md_deep_purple_500_r = 0.40, md_deep_purple_500_g = 0.23, md_deep_purple_500_b = 0.72;
@@ -28,7 +30,7 @@ const float md_amber_500_r = 1.00, md_amber_500_g = 0.76, md_amber_500_b = 0.03;
 const float md_orange_500_r = 1.00, md_orange_500_g = 0.60, md_orange_500_b = 0.00;
 const float md_brown_500_r = 0.47, md_brown_500_g = 0.33, md_brown_500_b = 0.28;
 ```
-# python
+## python
 ```python 
 md_red_500_r = 0.96, md_red_500_g = 0.26, md_red_500_b = 0.21
 md_pink_500_r = 0.91, md_pink_500_g = 0.12, md_pink_500_b = 0.39
@@ -42,3 +44,6 @@ md_orange_500_r = 1.00, md_orange_500_g = 0.60, md_orange_500_b = 0.00
 md_brown_500_r = 0.47, md_brown_500_g = 0.33, md_brown_500_b = 0.28
 md_grey_500_r = 0.62, md_grey_500_g = 0.62, md_grey_500_b = 0.62
 ```
+# Links
+- [material.io/resources/color](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=F44336)
+- [materialui.co/colors](https://materialui.co/colors)
