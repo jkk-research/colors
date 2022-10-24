@@ -15,5 +15,8 @@ for line in Lines:
     b = int(hex[5:7], 16) / 255.0
     if ("_500" in name) or ("_500" in name) or ("_500" in name):
         count += 1
+        #print(count)
         #print("const float %s_r = %.2f, %s_g = %.2f, %s_b = %.2f;" % (name[:-4], r, name[:-4], g, name[:-4], b))
         print("%s_r = %.2f, %s_g = %.2f, %s_b = %.2f" % (name[:-4], r, name[:-4], g, name[:-4], b))
+        #print("%s = {%.0f, %.0f, %.0f}" % (name[:-4], r * 255, g *255,  b * 255))
+        #print("{%.0f, %.0f, %.0f}, " % (r * 255, g *255,  b * 255))
