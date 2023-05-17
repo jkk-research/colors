@@ -18,7 +18,7 @@ The Google Material Design color system is a comprehensive design language which
 
 # Code examples
 
-## c++
+## c++ code snippet
 ```cpp
 const float md_red_500_r = 0.96, md_red_500_g = 0.26, md_red_500_b = 0.21;
 const float md_deep_purple_500_r = 0.40, md_deep_purple_500_g = 0.23, md_deep_purple_500_b = 0.72;
@@ -30,7 +30,18 @@ const float md_amber_500_r = 1.00, md_amber_500_g = 0.76, md_amber_500_b = 0.03;
 const float md_orange_500_r = 1.00, md_orange_500_g = 0.60, md_orange_500_b = 0.00;
 const float md_brown_500_r = 0.47, md_brown_500_g = 0.33, md_brown_500_b = 0.28;
 ```
-## python
+
+## c++ complete color list as header
+
+Copy and include this [cpp header `material_color.hpp`](source/material_color.hpp) to use all the material colors.
+
+Or simply use `wget`:
+```
+wget https://raw.githubusercontent.com/jkk-research/colors/main/source/material_color.hpp
+```
+
+
+## python simple code snippet
 ```python 
 md_red_500_r = 0.96, md_red_500_g = 0.26, md_red_500_b = 0.21
 md_pink_500_r = 0.91, md_pink_500_g = 0.12, md_pink_500_b = 0.39
@@ -44,6 +55,27 @@ md_orange_500_r = 1.00, md_orange_500_g = 0.60, md_orange_500_b = 0.00
 md_brown_500_r = 0.47, md_brown_500_g = 0.33, md_brown_500_b = 0.28
 md_grey_500_r = 0.62, md_grey_500_g = 0.62, md_grey_500_b = 0.62
 ```
+
+## python complete color list as .py
+
+Copy and include this [python file `material_color.hpp`](source/material_color.py) to use all the material colors.
+
+Or simply use `wget`:
+
+```
+wget https://raw.githubusercontent.com/jkk-research/colors/main/source/material_color.py
+```
+
+# Useful
+
+VS code has  some cool [plugins](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) to highlight colors:
+
+![img](source/vs_code_color_highlight.png)
+
+
 # Links
 - [material.io/resources/color](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=F44336)
 - [materialui.co/colors](https://materialui.co/colors)
+
+
+<a href="LICENSE"><img src="https://raw.githubusercontent.com/jkk-research/ros1ros2/main/etc/cc0.svg" width=40% /></a>
